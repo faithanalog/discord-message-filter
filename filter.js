@@ -26,7 +26,7 @@
       if (rgx.test(m.textContent)) {
         m.textContent = "_";
       }
-    })
+    });
   }, 250);
 
   // TODO use MutationObserver
