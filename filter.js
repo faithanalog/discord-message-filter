@@ -30,28 +30,4 @@
   }, 250);
 
   // TODO use MutationObserver
-
-  // var messageObserverConfig = {
-  //     subtree: true,
-  //     characterData: true
-  // };
-
-
-  // function messageObserverCallback(mutations, observer) {
-  //     for (var m of mutations) {
-  //         console.log("Got a mutation");
-  //         if (m.type === 'characterData') {
-  //             var e = m.target;
-  //             if (rgx.test(e.textContent)) {
-  //                 e.textContent = "";
-  //             }
-  //             console.log(e.textContent);
-  //         }
-
-  //     }
-  // }
-
-  // var messageObserver = new MutationObserver(messageObserverCallback);
-  // messageObserver.observe(document.getRootNode(), messageObserverConfig);
-  // console.log("Handler attached");
 })();
